@@ -58,7 +58,7 @@ select{
   opacity: .5;
 }
 
-input{
+input {
   &[disabled] {
     background-color: var(--surface-disabled);
     
@@ -67,7 +67,7 @@ input{
     color: var(--text-primary);
   }
 
-  &:invalid{
+  &:invalid {
     border: 0.125rem solid var(--semantic-error);
   }
 
@@ -79,7 +79,7 @@ input{
     margin-top: .25rem;
   }
 
-  &[required] + .error{
+  &[required] + .error {
     display: flex;
     align-items: center;
     gap: .25rem;
@@ -89,7 +89,8 @@ input{
 
     margin-top: .25rem;
   }
-  &:not(:focus):valid + .error{
+
+  &:not(:focus):valid + .error {
     display: none;
   }
 }

@@ -2,9 +2,9 @@ label + .radio-wrapper{
   margin: 1rem;
 }
 
-.radio-wrapper{
+.radio-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(7.5rem,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
   gap: 1rem;
 }
 
@@ -47,7 +47,7 @@ label + .radio-wrapper{
   }
 
   &:has(:checked) {
-    border: 2px solid var(--stroke-default);
+    border: 2px solid var(--stroke-highlight);
     & .radio-image {
       background-image: url(../../assets/icons/radio-checked.svg);
     }
